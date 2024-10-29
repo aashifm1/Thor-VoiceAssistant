@@ -9,7 +9,6 @@ alexa = pyttsx3.init()
 voices = alexa.getProperty('voices')
 alexa.setProperty('voice', voices[0].id)
 
-# Recognizer initializatio
 recognizer = spre.Recognizer()
 
 def speak(text):
